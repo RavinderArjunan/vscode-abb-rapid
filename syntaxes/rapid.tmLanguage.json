@@ -43,11 +43,11 @@
         },
         {
           "name": "keyword.control.type.rapid",
-          "match": "\\b(MODULE|ENDMODULE|PROC|ENDPROC|FUNC|ENDFUNC|RECORD|ENDRECORD)\\b"
+          "match": "\\b(MODULE|ENDMODULE|PROC|ENDPROC|ERROR|FUNC|ENDFUNC|RECORD|ENDRECORD)\\b"
         },
         {
           "name": "support.type.rapid",
-          "match": "(?i)\\b(bool|byte|num|string)\\b"
+          "match": "(?i)\\b(bool|byte|num|string|dnum)\\b"
         }
       ]
     },
